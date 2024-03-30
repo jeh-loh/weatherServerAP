@@ -52,10 +52,10 @@ namespace weatherServerAP.Controllers
                     City city = new()
                     {
                         Name = record.city,
-                        Lat = record.lat,
-                        Lon = record.lng,
+                        Latitude = record.lat,
+                        Longitude = record.lng,
                         Population = (int)record.population.Value,
-                        CountryId = value.Id
+                        CountryId = value.CountryId
                     };
                     db.Cities.Add(city);
                     cityCount++;
