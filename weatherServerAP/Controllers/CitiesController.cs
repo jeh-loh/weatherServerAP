@@ -23,7 +23,6 @@ namespace weatherServerAP.Controllers
         }
 
         [Authorize]
-
         [HttpGet("GetPopulation")]
         public async Task<ActionResult<IEnumerable<CountryPopulation>>> GetPopulation()
         {
