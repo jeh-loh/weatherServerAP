@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace CountryModel
 {
     public class WorldCitiesUser: IdentityUser
+        //
     {
     }
 }
